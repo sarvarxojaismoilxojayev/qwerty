@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.items {
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+
+    .fs-3 {
+        margin-right: 20px;
+        margin-top: -8px;
+    }
+}
+
+aside {
+    margin-top: 10px;
+    margin-left: 34px;
+    max-width: 272px;
+
+    .info {
+        border-right: 1px solid rgb(175, 171, 171);
+    }
+
+    .discription,
+    .icon {
+        color: #c2bfc9;
+    }
+
+    .items {
+        text-align: left;
+        max-width: 270px;
+        padding-top: 7px;
+        border-radius: 0px 20px 0px 20px;
+        transition: 0.5s ease-in;
+        margin-bottom: 90px;
+
+        &:hover {
+            background: #dad4d4;
+            opacity: 0.9;
+            padding-left: 1px;
+
+            .icon {
+                color: #5F41B2;
+            }
+
+            .discription {
+                color: #5F41B2;
+            }
+        }
+    }
+}
+
+main {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.container-mn {
+    max-width: 600px;
+    margin: auto;
+}
+
+.repository {
+    display: flex;
+}
+
+option,
+select {
+    border: none;
+    outline: none;
+}
+
+.label {
+    margin-left: 850px;
+    user-select: none;
+}
+
+.total {
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.icon-mx {
+    border-radius: 50%;
+    padding: 16px 20px;
+    font-size: 40px;
+    background: #F4F7FE;
+    color: #5F41B2;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 32px rgba(21, 22, 22, 0.15);
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+
+    .internal {
+        font-weight: 400;
+        font-size: 16px;
+        color: #A3AED0;
+    }
+
+    .number {
+        font-weight: bold;
+        color: #1B2559;
+    }
+}
+
+.main__img {
+    margin-left: -70px;
+}
+
+.table1 {
+    margin-top: 50px;
+
+    .effect {
+        margin-right: 190px;
+        font-weight: 600;
+        font-size: 18px;
+        align-items: center;
+        color: #2B3A4B
+    }
+
+    .effect2 {
+        margin-right: 320px;
+        font-weight: 600;
+        font-size: 18px;
+        align-items: center;
+        color: #2B3A4B
+    }
+}
